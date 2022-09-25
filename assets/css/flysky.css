@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+html {
+    scroll-behavior: smooth;
+}
+#navbar-design {
+    background: #e44f4f;
+}
+.logo {
+    border-radius: 5px;
+}
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/first-image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 75px;
+}
+.banner-img {
+    transform: scale(0.8);
+}
+.main-text {
+    color: #fff;
+    margin-top: 40px;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: "Lalezar", sans-serif;
+}
+.sub-text {
+    color: #fff;
+}
+.banner-img-1, .banner-img-2, .banner-img-3 {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.contact-us  {
+    background: #e44f4f;
+    color: #fff;
+    animation: slide 2s infinite;
+    transition: .4s ease;
+}
+.contact-us:hover {
+    animation-play-state: paused;
+    color: #fff;
+}
+.about {
+    color: #e44f4f;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+.animated {
+    animation: rotate 1s infinite;
+}
+#services {
+    margin-top: 150px;
+} 
+
+.stud-img {
+    margin-top: 10px;
+    width: 245px;
+    height: 245px;
+}
+.search {
+    text-transform: uppercase;
+    font-size: 2.3em;
+    font-family: "Lalezar", sans-serif;
+}
+.q-mark {
+    background:#e44f4f;
+    color: #ffff;
+    border-radius: 0 10px 0 10px;
+    padding: 5px 5px;
+}
+.smiling {
+    width: 200px;
+    height: 200px;
+}
+.footer {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+ul.menu {
+    list-style: none;
+}
+ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+@keyframes slide {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+    }
+}
+@keyframes rotate {
+    0% {
+      opacity: 0.6;
+      transform: translateY(10px)
+    }
+    100% {
+        transform: translateY(-10px)
+    }
+}
+
+
+
+@media (max-width: 598px){
+    .stud-img{
+       display: none;
+    }
+    #mobile-space {
+        margin-top: 50px;
+        }
+}
