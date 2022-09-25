@@ -318,11 +318,17 @@ aria-hidden="true">
 <script src="dist/aos.js"></script>
 <script>
     AOS.init()
-    window.load = function() {
-      var backgroundImg = [
-        "assets/images/"
-      ]
-    }
+   let changeBg = () => {
+    const images = [
+      'url("assets/images/first-image.jpg")',
+      'url("assets/images/second-image.jpg")',
+      'url("assets/images/third-image.jpg")'
+   ]
+   const banner = document.getElementById("banner");
+   const bg = images[Math.floor(Math.random() * images.length)]
+   banner.style.backgroundImage = bg;
+   }
+   setInterval(changeBg, 5000)
 </script>
 </body>
 </html>
