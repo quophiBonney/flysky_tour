@@ -28,6 +28,7 @@ html {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    height: 30%;
     margin-top: 75px;
     transition: all 0.5s ease-in-out;
 }
