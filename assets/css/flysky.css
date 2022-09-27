@@ -23,6 +23,14 @@ html {
     margin-top: 75px;
     transition: all 0.5s ease-in-out;
 }
+#contactBanner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/img3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 75px;
+    transition: all 0.5s ease-in-out;
+}
 .banner-img {
     transform: scale(0.8);
 }
@@ -33,8 +41,9 @@ html {
     text-transform: uppercase;
     font-family: "Lalezar", sans-serif;
 }
-.sub-text {
+.sub-text, .sub-text1 {
     color: #fff;
+    font-size: 1.1em;
 }
 .banner-img-1, .banner-img-2, .banner-img-3 {
     border-radius: 100%;
@@ -66,12 +75,27 @@ section {
 }
 #services {
     margin-top: 150px;
-} 
-
+}
+.service-card {
+    background: #e44f4f;
+}
+.service-img {
+    width: 30%;
+    margin-top: 10px;
+}
+.passport {
+    color: #e44f4f;
+}
 .stud-img {
     margin-top: 10px;
     width: 245px;
     height: 245px;
+}
+.about-contact {
+    font-size: 2.5em;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #fff;
 }
 .search {
     text-transform: uppercase;
@@ -92,6 +116,12 @@ section {
 }
 #destinations {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(/assets/images/eighth-image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#contact-destinations {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(/assets/images/second-image.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -120,6 +150,9 @@ section {
     font-family: "Lalezar", sans-serif;
     font-weight: 600;
 }
+.message-field {
+    height: 40%;
+}
 .footer {
     background: rgba(0, 0, 0, 0.4);
     color: #fff;
@@ -127,9 +160,15 @@ section {
 ul.menu {
     list-style: none;
 }
+ul.menu h5 {
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: "Lalezar", sans-serif;
+}
 ul.menu li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1em;
 }
 
 @keyframes borderColor {
