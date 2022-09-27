@@ -28,9 +28,14 @@ html {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 30%;
     margin-top: 75px;
-    transition: all 0.5s ease-in-out;
+}
+#about-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/fifth-image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 75px;
 }
 .banner-img {
     transform: scale(0.8);
@@ -101,8 +106,8 @@ section {
 .search {
     text-transform: uppercase;
     color: #e44f4f;
-    font-weight: 700;
-    font-size: 2em;
+    font-weight: 800;
+    font-size: 1.6em;
     font-family: "Lalezar", sans-serif;
 }
 .q-mark {
@@ -116,13 +121,13 @@ section {
     height: 200px;
 }
 #destinations {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(/assets/images/eighth-image.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../images/eighth-image.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
 #contact-destinations {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(/assets/images/second-image.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/Kotoka-check-in-area.png);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -153,6 +158,20 @@ section {
 }
 .message-field {
     height: 40%;
+}
+.heading {
+    color: #e44f4f;
+    font-size: 2em;
+    font-weight: 800;
+    font-family: "Lalezar", sans-serif;
+}
+.fa-times {
+    font-size: 1.5em;
+    background: #e44f4f;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 .footer {
     background: rgba(0, 0, 0, 0.4);
