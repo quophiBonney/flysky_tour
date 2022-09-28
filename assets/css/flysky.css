@@ -13,11 +13,9 @@ html {
     background: rgba(49, 49, 253, 0.884);
 }
 .logo {
-    font-size: 1.5em;
-    font-weight: 700;
-    font-family: "Lalezar", sans-serif;
-    color: #fff;
-    text-transform: uppercase;
+   width: 60px;
+   height: 60px;
+   border-radius: 50px;
 }
 #banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/first-image.jpg);
@@ -272,6 +270,7 @@ ul.menu li {
 }
 ul.menu li a {
     color: #fff;
+    text-decoration: none;
 }
 
 @keyframes borderColor {
