@@ -12,22 +12,22 @@
     <link rel="stylesheet" href="dist/aos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <title>Flysky Travel Tour</title>
+    <title>Contact - Flysky Travel Tour</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar-design">
         <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" class="img-fluid logo"></a>
+        <a class="navbar-brand" href="index.html"><h3 class="mt-3 logo">Flysky Tour</h3></a>
         <button type="button" class="navbar-toggler bg-light" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" aria-label="Toggle Navigation" aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
         </button>
      <div class="navbar-collapse collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a class="nav-link text-light active" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link text-light" href="#ourServices">Services</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#enquire">Write To Us</a></li>
             <li class="nav-item"><a class="nav-link text-light" href="about.html">About Us</a></li>
             <li class="nav-item"><a class="nav-link text-light" href="contact.html">Contact</a></li>
         </ul>
@@ -40,13 +40,19 @@
         <h1 class="main-text">Flysky Tour</h1>
         <p class="sub-text"><strong>Your perfect recruitment and travel agency.</strong></p>
         <div class="col-xm-12 col-sm-12 col-md-4 col-lg-4 banner-img text-center" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100">
-            <img src="assets/images/student_02.jpg" class="img-fluid banner-img-1" alt="Family travelling">
+            <img src="assets/images/student_02.jpg" class="img-fluid banner-img-1" alt="student abroad">
+            <h4 class="text-light mt-2"><strong>1.5K</strong></h4>
+            <p class="text-light"><strong>Recommendations</strong></p>
         </div>
         <div class="col-xm-12 col-sm-12 col-md-4 col-lg-4 banner-img text-center" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500">
-            <img src="assets/images/plane.jpg" class="img-fluid banner-img-2" alt="Family travelling">
+            <img src="assets/images/plane.jpg" class="img-fluid banner-img-2" alt="plane">
+            <h4 class="text-light mt-2"><strong>2.5K</strong></h4>
+            <p class="text-light"><strong>Reviews</strong></p>
         </div>
         <div class="col-xm-12 col-sm-12 col-md-4 col-lg-4 banner-img text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000">
             <img src="assets/images/Kotoka-check-in-area.png" class="img-fluid banner-img-3" alt="Family travelling">
+            <h4 class="text-light mt-2"><strong>5</strong></h4>
+            <p class="text-light"><strong>Branches</strong></p>
         </div>
     </div>
      </div>
@@ -55,7 +61,7 @@
     <div class="row">
         <div class="col-xm-12 col-sm-12.col-md-6 col-lg-6">
             <h3 class="about">About Us</h3>
-            <p><strong>Flysk Tour</strong> is a leading recruitment and travel agency based in Ghana for the past sixteen years that specializes in passport, visa and recruitment for to destinations around the globe. We are a leader in organizing leisure and business travels for individuals, groups and business organizations. Our strength lies in the partnerships we have with many renowned Destination Management Companies <strong>(DMCs)</strong> around the world that enable us to provide the most affordable and genuine recruitment packages to our cherished clients. Our in-depth industry knowledge has attracted many corporate and even government institutions such as Ghana Armed Forces to patronize our services.</p>
+            <p><strong>Flysky Tour</strong> is a leading recruitment and travel agency based in Ghana for the past sixteen years that specializes in passport, visa and recruitment to destinations around the globe. We are a leader in organizing leisure and business travels for individuals, groups and business organizations. Our strength lies in the partnerships we have with many renowned Destination Management Companies <strong>(DMCs)</strong> around the world that enable us to provide the most affordable and genuine recruitment packages to our cherished clients. Our in-depth industry knowledge has attracted many corporate and even government institutions to patronize our services.</p>
             <a href="contact.html" class="btn btn-md contact-us">Discover More</a>
         </div>
         <div class="col-xm-12 col-sm-12.col-md-6 col-lg-6" id="mobile-space">
@@ -98,6 +104,10 @@ aria-hidden="true">
           <p class="text-center">Please fill all the fields below so we can hear from you.</p>
            <center><i class="fa fa-times" data-dismiss="modal"></i></center><br/>
             <form method="POST">
+              <div class="form-group mt-2">
+                <input type="text" id="fullName" placeholder="Full Name"
+                    class="form-control hiring-input">
+            </div>
                 <div class="form-group mt-2">
                     <input type="email" id="email" placeholder="Email"
                         class="form-control hiring-input">
@@ -153,17 +163,17 @@ aria-hidden="true">
         <p>what we do as a recruitment and travel agency</p>
       </div>
       <div class="col-xm-12 col-sm-12 col-md-4 col-lg-4 text-center mt-3">
-        <img class="img-fluid service-img" src="assets/images/recruitment.png" alt="passport">
+        <i class="fa fa-plane"></i>
         <h3 class="passport mt-3">Recruitment</h3>
         <p>Our dearest service is recruiting Africans especially Ghanaians in getting their dream jobs abroad to better their standard of living.</p>
        </div>
       <div class="col-xm-12 col-sm-12 col-md-4 col-lg-4 text-center mt-3">
-       <img class="img-fluid service-img" src="assets/images/international-passport.png" alt="passport">
-       <h3 class="passport mt-3">Passport</h3>
+        <i class="fa fa-users"></i>
+        <h3 class="passport mt-3">Passport</h3>
        <p>At Flysky Tour getting your passport with ease, affordable and on time is one of the services we offer.</p>
       </div>
       <div class="col-xm-12 col-sm-12 col-md-4 col-lg-4 text-center mt-3">
-        <img class="img-fluid service-img" src="assets/images/visa.png" alt="passport">
+        <i class="fa fa-cc-visa" aria-hidden="true"></i>
         <h3 class="passport mt-3">Visa Application</h3>
         <p>We(Flysky Tour) are experts in helping you and anyone secure his or her visa without delay and stress.</p>
        </div>
@@ -192,7 +202,7 @@ aria-hidden="true">
         <div class="row">  
           <div class="col-lg-4 mt-5">
             <img class="shadow-1-strong mb-4"
-              src="assets/images/man-son.jpg" alt="bernard anim" width="70%"/>
+              src="assets/images/arican-guy.jpg" alt="bernard anim" width="70%"/>
             <h5 class="mb-3 gurantor-name">Mr. Bernard Anim</h5>
             <p class="position">Software Engineer, CodLogic SE Ltd</p>
             <p class="text-muted">
@@ -207,7 +217,7 @@ aria-hidden="true">
               src="assets/images/students.jpg" alt="gertrude asamoah" width="70%"/>
             <h5 class="mb-3 gurantor-name">Miss Gertrude Asamoah</h5>
             <p class="position">Cashier, USA</p>
-            <p class="text-muted">
+            <p class="">
               <i class="fa fa-quote-left pe-2"></i>
               I can boldly and sincerely recommend <strong>Flysky Tour</strong> to anyone who wish to travel abroad.
              <i class="fa fa-quote-right pe-2"></i>
@@ -215,12 +225,12 @@ aria-hidden="true">
           </div>
           <div class="col-lg-4 mt-5 d-none d-lg-block">
             <img class="shadow-1-strong mb-4"
-              src="assets/images/smiles.jpg" alt="patrick ewusi" width="70%"/>
-            <h5 class="mb-3 gurantor-name">Mr. Patrick Ewusi</h5>
-            <p class="position">Commentator & Marketer, Green Fm</p>
-            <p class="text-muted">
+              src="assets/images/sammy.jpg" alt="samuel quartey" width="70%"/>
+            <h5 class="mb-3 gurantor-name">Mr. Samuel Quartey</h5>
+            <p class="position">Sales Personnel, Germany</p>
+            <p class="">
               <i class="fa fa-quote-left pe-2"></i>
-             Bonney's working experience and professionalism is a top notch, he's a real gem.
+              You guys are the best! Keep up the great work! I will always travel with you.
               <i class="fa fa-quote-right pe-2"></i>
             </p>
           </div>
@@ -234,36 +244,36 @@ aria-hidden="true">
         <div class="row">
           <div class="col-lg-4 mt-5">
             <img class="shadow-1-strong mb-4"
-              src="assets/images/IMG-20220512-WA0008.jpg" alt="mary efya danquah" width="70%"/>
-            <h5 class="mb-3 gurantor-name">Miss Mary Danquah</h5>
-            <p class="position">Business Consultant, Mimi's Collections</p>
-            <p class="text-muted">
+              src="assets/images/robinson.jpg" alt="student abroad" width="70%"/>
+            <h5 class="mb-3 gurantor-name">Mr. Solomon Eastwood</h5>
+            <p class="position">Accountant, Germany</p>
+            <p class="">
               <i class="fa fa-quote-left pe-2"></i>
-               I and my other colleagues were amazed at which our customer base grew when we had Mr. Bonney to work on our websites.
+              You made it so simple so my new job is so much faster and easier to work with than my previous. Thanks, guys!
                <i class="fa fa-quote-right pe-2"></i>
             </p>
           </div>
 
           <div class="col-lg-4 mt-5 d-none d-lg-block">
             <img class="shadow-1-strong mb-4"
-              src="assets/images/ben.jpg" alt="benard" width="30%"/>
-            <h5 class="mb-3 gurantor-name">Mr. Benard</h5>
-            <p class="position">CS Student, Ahyesi Universtiy</p>
-            <p class="text-muted">
+              src="assets/images/selasi.jpg" alt="Selasi" width="70%"/>
+            <h5 class="mb-3 gurantor-name">Mr. Selasi</h5>
+            <p class="position">Maths Instructor, Canada</p>
+            <p class="">
               <i class="fa fa-quote-left pe-2"></i>
-             Seeing Solomon's daily motivation, learning and projects will let you fall in love with computer programming because he don't give up.
+              I just want to let the people around the world especially Ghana know that it’s been great working with <strong>Flysky Tour</strong>.
                <i class="fa fa-quote-right pe-2"></i>
             </p>
           </div>
 
           <div class="col-lg-4 mt-5 d-none d-lg-block">
             <img class="shadow-1-strong mb-4"
-              src="assets/images/kiddo cliq.png" alt="emmanuel quartey" width="70%"/>
-            <h5 class="mb-3 gurantor-name">Mr. Emmanuel Quartey</h5>
-            <p class="position">Programmer, Kiddo's Deal</p>
-            <p class="text-muted">
+              src="assets/images/baah.jpg" alt="Baah" width="70%"/>
+            <h5 class="mb-3 gurantor-name">Mr. Godfred Baah</h5>
+            <p class="position">Footballer, Qatar</p>
+            <p class="">
               <i class="fa fa-quote-left pe-2"></i>
-               Solomon is a perfect example of someone who never put his professionalism and project delivery down on the floor. 
+               I never believe that there is a recruitment agency who secures you in no time until I met <strong>Flysky Tour</strong>. 
                <i class="fa fa-quote-right pe-2"></i>
             </p>
           </div>
@@ -276,12 +286,12 @@ aria-hidden="true">
         <div class="row">
           <div class="col-lg-4 mt-5">
             <img class="shadow-1-strong mb-4"
-              src="assets/images/mrboateng.jpg" alt="emmanuel boateng" width="30%"/>
-            <h5 class="mb-3 gurantor-name">Mr Emmanuel Boateng</h5>
-            <p class="position">Drive Test Engineer, Cyberlinks Inc.</p>
-            <p class="text-muted">
+              src="assets/images/family.JPG" alt="emmanuel boateng" width="60%"/>
+            <h5 class="mb-3 gurantor-name">Mr. Emmanuel Boateng</h5>
+            <p class="position">Drive Test Engineer, USA</p>
+            <p class="">
               <i class="fa fa-quote-left pe-2"></i>
-              Bonney is full of million ways of teaching and arriving at every situation. His understanding and exposure in the field is very massive. 
+               What are you waiting for, come to <strong>Flysky Tour</strong> and share your testimony like me.
               <i class="fa fa-quote-right pe-2"></i>
             </p>
           </div>
@@ -290,8 +300,8 @@ aria-hidden="true">
             <img class="shadow-1-strong mb-4"
               src="assets/images/mercy.jpg" alt="mercy anderson" width="70%"/>
             <h5 class="mb-3 gurantor-name">Mercy Anderson</h5>
-            <p class="position">Doctor, Korle-Bu Teaching Hospital</p>
-            <p class="text-muted">
+            <p class="position">Doctor, United Kingdom</p>
+            <p class="">
               <i class="fa fa-quote-left pe-2"></i>
              I and my other colleagues were amazed at which our customer base grew when we had Mr. Bonney to work on our websites.
                <i class="fa fa-quote-right pe-2"></i>
@@ -300,10 +310,10 @@ aria-hidden="true">
 
           <div class="col-lg-4 mt-5 d-none d-lg-block">
             <img class="shadow-1-strong mb-4"
-              src="assets/images/sis.jpg" alt="olivia aba bonney" width="70%"/>
-            <h5 class="mb-3 gurantor-name">Mrs Olivia Mensah</h5>
-            <p class="position">Midwife, Swedru Gov't Hospital</p>
-            <p class="text-muted">
+              src="assets/images/joana.jpg" alt="Joana unsplash" width="70%"/>
+            <h5 class="mb-3 gurantor-name">Mr. Solomon Bossman</h5>
+            <p class="position">Machine Operator, Miami(USA)</p>
+            <p class="">
               <i class="fa fa-quote-left pe-2"></i>
              I and my other colleagues were amazed at which our customer base grew when we had Mr. Bonney to work on our websites.
                <i class="fa fa-quote-right pe-2"></i>
@@ -317,56 +327,55 @@ aria-hidden="true">
 </div>
 </div>
 </section>
-<section class="container-fluid footer mt-5" id="footerBackground">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 mt-3">
-          <img src="assets/images/logo.png" class="img-fluid" alt="flysky tour logo">
+ <footer class="container-fluid mt-5">
+ <div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-3 mt-3">
+      <h3 class="logo">Flysky Tour</h3>
           <p><strong>Flysky Tour</strong> has been nothing but game changer and the people's choice since its establishment in 2006.</p>
-      </div>
-      <div class="col-md-3 mt-3">
-        <ul class="menu">
-          <h5>Quick Links</h5>
-          <hr class="footer-hr">
-          <li>
-            <a href="index.html" title="home"><strong>&#8594;Home</strong></a>
-          </li>
-          <li>
-            <a href="#ourServices" title="services"><strong>&#8594;Services</strong></a>
-          </li>
-          <li>
-              <a href="about.html" title="about"><strong>&#8594;About Us</strong></a>
-            </li>
-          <li>
-            <a href="contact.html" title="contact"><strong>&#8594;Contact</strong></a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-3 mt-3">
-        <ul class="menu">
-          <h5>Contact Info</h5>
-          <hr class="footer-hr">
-          <li><strong>Tema Comm 25-Accra-Ghana</strong></li>
-          <li><a href="tel:0244937319" class="text-decoration-none text-light"><strong>0244937319/0233937319</a></strong></li>
-          <li><strong><a href="mailto:Hafsa@flysytour.com" class="text-decoration-none text-light">Hafsa@flysytour.com</a></strong></li>
-        </ul>
-      </div>
-      <div class="col-md-3 mt-3">
-        <ul class="menu">
-          <h5>Subscribe</h5>
-          <hr class="footer-hr">
-          <li><strong>Don't miss any update</strong></li>
-          <input type="email" placeholder="Hafsa@flysytour.com" class="form-control">
-          <input type="submit" class="btn btn-danger mt-1" value="Subscribe">
-      </div>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-whatsapp"></i>
     </div>
-    <hr>
-    <h6 class="copy-right text-center">All rights reserved &copy; 2015 - 2022<br/>
-    <strong>Flysky Tour</strong></h6>
-    <p class="mt-5 text-center"><strong>Designed By Borex Technology<br/>
-    0596840018/0244325178</strong></p>
+    <div class="col-md-3 mt-3">
+      <ul class="menu">
+        <h5 class="footer-links-header">Quick Links</h5>
+        <hr class="footer-hr">
+        <li>
+          <a href="index.html" title="home"><strong>&#8594;Home</strong></a>
+        </li>
+        <li>
+          <a href="#ourServices" title="services"><strong>&#8594;Services</strong></a>
+        </li>
+        <li>
+            <a href="about.html" title="about"><strong>&#8594;About Us</strong></a>
+          </li>
+        <li>
+          <a href="contact.html" title="contact"><strong>&#8594;Contact</strong></a>
+        </li>
+      </ul>
   </div>
-</section>
+  <div class="col-md-3 mt-3">
+    <h5 class="footer-links-header">Location</h5>
+    <hr class="footer-hr">
+    <ul class="menu">
+      <li><strong>Tema Comm 25</strong></li>
+      <li><strong>P.O.Box 23</strong></li>
+      <li><strong>Accra-Ghana</strong></li>
+  </div>
+  <div class="col-md-3 mt-3">
+    <h5 class="footer-links-header">Subscribe</h5>
+    <hr class="footer-hr">
+    <form>
+      <input type="email" id="emailId" placeholder="Hafsa@flyskytour" class="form-control" required="">
+      <input type="submit" class="btn btn-primary mt-1" value="Subscribe">
+    </form>
+  </div>
+  </div>
+  <br/>
+ </div>
+ </footer>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="bootstrap/jquery/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
