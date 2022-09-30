@@ -32,6 +32,25 @@ html {
     background-attachment: fixed;
     margin-top: 75px;
 }
+#partnership-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url(../images/eighth-image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 86px;
+}
+#destinations {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url(../images/third-image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#contact-destinations {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/six-image.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .about-banner-hero {
     margin-top: 86px;
 }
@@ -163,7 +182,7 @@ section {
     border-radius: 5px;
 }
 .gurantor-name {
-    font-weight: 500;
+    font-weight: 700;
     font-family: "Lalezar", sans-serif;
 }
 .position {
@@ -182,6 +201,10 @@ section {
 }
 .passport {
     color: rgba(49, 49, 253, 0.884);
+}
+.notice {
+    animation: fadeIn 2s infinite;
+    transition: all .5s ease-in-out;
 }
 .stud-img {
     margin-top: 10px;
@@ -210,18 +233,6 @@ section {
 .smiling {
     width: 200px;
     height: 200px;
-}
-#destinations {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),url(../images/third-image.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-#contact-destinations {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/airline.png);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
 }
 #country {
     border: 5px solid #f0f0f0;
@@ -290,6 +301,14 @@ ul.menu li a {
     }
     100% {
         border: 4px solid rgba(49, 49, 253, 0.884);
+    }
+}
+@keyframes fadeIn {
+    0% {
+       opacity: 0.7;
+    }
+    100% {
+        color: red;
     }
 }
 @media (max-width: 598px){
