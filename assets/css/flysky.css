@@ -5,6 +5,11 @@
 }
 body {
     height: 100vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: block;
 }
 html {
     scroll-behavior: smooth;
@@ -294,7 +299,32 @@ ul.menu li a {
     color: #fff;
     text-decoration: none;
 }
-
+#scrollUp {
+    position: fixed;
+    right: 32px;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    visibility: hidden;
+    transition: .5s;
+    bottom: 10px;
+    background:rgba(49, 49, 253, 0.884);
+    border-radius: 10px;
+}
+#scrollUp.active {
+    bottom: 20px;
+    pointer-events: auto;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-55px);
+}
+.fa-arrow-up {
+    color: #fff;
+    font-size: 35px;
+    padding: 15px 18px;
+}
 @keyframes borderColor {
     0% {
 
