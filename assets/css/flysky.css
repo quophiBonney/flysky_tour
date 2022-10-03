@@ -87,6 +87,8 @@ section {
 }
 .contact-us  {
     background: rgba(49, 49, 253, 0.884);
+    font-size: 1.2em;
+    font-weight: 600;
     color: #fff;
     animation: slide 2s infinite;
     transition: .4s ease;
@@ -135,6 +137,11 @@ section {
 .fa-twitter:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+.asteriks {
+    font-weight: bold;
+    color: rgb(212, 21, 21);
+    font-size: 1.3em;
 }
 .contact-card {
     transform: scale(0.8);
@@ -280,6 +287,12 @@ section {
     border-radius: 5px;
     cursor: pointer;
 }
+#happyWoman:hover {
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    opacity: 0.8;
+    transition: all .5s ease-in-out;
+}
 footer {
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -341,7 +354,7 @@ ul.menu li a {
     }
 }
 @media (max-width: 598px){
-    #banner {
+    #banner, .about-banner-hero {
         margin-top: 75px;
     }
     .logo {
